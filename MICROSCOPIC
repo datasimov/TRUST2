@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRUST™ | DATASIMOV Industries</title>
+<meta name="description" content="DATASIMOV TRUST - Executive Integrity and Corporate Intelligence Protection.">
+<style>
+:root {
+  --bg:#070b12;
+  --panel:#0d1623;
+  --line:#20354b;
+  --cyan:#63e6ff;
+  --blue:#398dff;
+  --muted:#91a5b9;
+  --white:#edf7ff;
+  --green:#78f0c0;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:radial-gradient(ellipse at 70% 5%,#102b43 0,transparent 38%),var(--bg);
+  color:var(--white);
+  font:15px/1.6 Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+}
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:22px 5%;
+  border-bottom:1px solid #1b2c3d;
+}
+.brand {font-weight:900;letter-spacing:.18em}
+.brand span {color:var(--cyan)}
+nav a {
+  color:var(--muted);
+  text-decoration:none;
+  margin-left:24px;
+  font-size:12px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+main {max-width:1120px;margin:auto;padding:68px 24px}
+.eyebrow {
+  color:var(--cyan);
+  font-size:11px;
+  letter-spacing:.25em;
+  text-transform:uppercase;
+}
+h1 {
+  font-size:clamp(48px,7vw,82px);
+  line-height:.98;
+  letter-spacing:-.055em;
+  margin:15px 0 22px;
+}
+h1 span {color:var(--cyan)}
+.lead {font-size:20px;color:#b7c8d8;max-width:680px}
+.hero {
+  display:grid;
+  grid-template-columns:1fr 1.05fr;
+  gap:44px;
+  align-items:center;
+}
+.visual {
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,#0c1c2d,#07101a);
+  border-radius:14px;
+  padding:18px;
+  box-shadow:0 25px 80px #0008;
+}
+.visual svg {width:100%;height:auto;display:block}
+.caption {
+  display:flex;
+  justify-content:space-between;
+  color:var(--muted);
+  font-size:10px;
+  letter-spacing:.12em;
+  margin-top:10px;
+}
+.actions {display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn {
+  border:1px solid var(--cyan);
+  background:var(--cyan);
+  color:#04111a;
+  padding:12px 18px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  cursor:pointer;
+  border-radius:4px;
+}
+.btn.secondary {background:transparent;color:var(--cyan)}
+section {margin-top:82px}
+.section-head {
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:20px;
+  border-bottom:1px solid var(--line);
+  padding-bottom:14px;
+}
+h2 {font-size:27px;margin:0;letter-spacing:-.03em}
+.section-head p {color:var(--muted);margin:0;font-size:12px}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  margin-top:20px;
+}
+.card {
+  background:var(--panel);
+  border:1px solid var(--line);
+  padding:20px;
+  border-radius:8px;
+}
+.card .num {color:var(--cyan);font-size:11px;letter-spacing:.15em}
+.card h3 {margin:9px 0 6px;font-size:16px}
+.card p {color:var(--muted);font-size:13px;margin:0}
+.metrics {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin-top:20px;
+}
+.metric {
+  border-top:2px solid var(--cyan);
+  padding:15px;
+  background:#0a121d;
+}
+.metric strong {display:block;font-size:27px}
+.metric small {
+  color:var(--muted);
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+.console {
+  background:#03080d;
+  border:1px solid #1d3b4c;
+  border-radius:8px;
+  padding:20px;
+  margin-top:20px;
+  font:13px/1.8 monospace;
+  color:var(--green);
+  min-height:112px;
+  white-space:pre-wrap;
+}
+.notice {
+  border-left:3px solid var(--cyan);
+  padding:14px 18px;
+  background:#0b1723;
+  color:#aebfd0;
+  font-size:12px;
+  margin-top:55px;
+}
+footer {
+  border-top:1px solid var(--line);
+  padding:26px 5%;
+  color:var(--muted);
+  font-size:11px;
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
+}
+@media(max-width:760px) {
+  .hero {grid-template-columns:1fr}
+  .grid {grid-template-columns:1fr}
+  .metrics {grid-template-columns:1fr}
+  nav {display:none}
+  main {padding-top:45px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">DATA<span>SIMOV</span></div>
+  <nav>
+    <a href="#architecture">Architecture</a>
+    <a href="#research">Research</a>
+    <a href="#demo">Live Demo</a>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero">
+
+<div>
+  <div class="eyebrow">
+    Advanced Executive Integrity Systems / Division 07
+  </div>
+
+  <h1>TRUST<span>™</span></h1>
+
+  <p class="lead">
+    Because leadership is the greatest security vulnerability.
+  </p>
+
+  <p>
+    Introducing the world's first executive-proof corporate
+    intelligence protection platform. TRUST™ monitors the
+    human variables traditional cybersecurity forgot to secure.
+  </p>
+
+  <div class="actions">
+    <button class="btn" onclick="runFirewall()">
+      Initialize Firewall
+    </button>
+
+    <a class="btn secondary" href="#architecture"
+       style="text-decoration:none">
+      Explore Architecture
+    </a>
+  </div>
+</div>
+
+<div class="visual">
+
+<svg viewBox="0 0 620 420" role="img"
+     aria-label="Fictional microscopic Relationship Firewall visualization">
+
+<defs>
+  <radialGradient id="glow">
+    <stop stop-color="#75f4ff" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#248cff" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+
+  <linearGradient id="wire">
+    <stop stop-color="#267cff"/>
+    <stop offset=".5" stop-color="#8af5ff"/>
+    <stop offset="1" stop-color="#267cff"/>
+  </linearGradient>
+</defs>
+
+<rect width="620" height="420" fill="#071321"/>
+
+<g opacity=".17" stroke="#4f83a9">
+  <path d="M0 70H620M0 140H620M0 210H620M0 280H620M0 350H620"/>
+  <path d="M80 0V420M160 0V420M240 0V420M320 0V420M400 0V420M480 0V420M560 0V420"/>
+</g>
+
+<circle cx="310" cy="205" r="130"
+        fill="url(#glow)" filter="url(#blur)"/>
+
+<g fill="none" stroke="url(#wire)" stroke-width="2">
+  <path d="M310 205L180 105 110 150 65 95"/>
+  <path d="M310 205L455 100 530 145 570 80"/>
+  <path d="M310 205L175 300 90 270 55 345"/>
+  <path d="M310 205L455 305 530 265 580 340"/>
+  <path d="M180 105L240 55 310 75 370 40 455 100"/>
+  <path d="M175 300L240 365 310 340 390 375 455 305"/>
+  <circle cx="310" cy="205" r="76"/>
+  <circle cx="310" cy="205" r="105" stroke-dasharray="4 8"/>
+</g>
+
+<g fill="#9cf7ff">
+  <circle cx="310" cy="205" r="15"/>
+  <circle cx="180" cy="105" r="7"/>
+  <circle cx="455" cy="100" r="7"/>
+  <circle cx="175" cy="300" r="7"/>
+  <circle cx="455" cy="305" r="7"/>
+  <circle cx="110" cy="150" r="5"/>
+  <circle cx="530" cy="145" r="5"/>
+  <circle cx="90" cy="270" r="5"/>
+  <circle cx="530" cy="265" r="5"/>
+</g>
+
+<g fill="#b9eaff" font-family="monospace" font-size="10">
+  <text x="18" y="28">RF / CORE MATRIX 04</text>
+  <text x="415" y="395">SYNTHETIC MICROGRAPH</text>
+  <text x="255" y="245">TRUST CORE</text>
+</g>
+
+<g stroke="#63e6ff" fill="none" opacity=".7">
+  <path d="M310 129V85H390"/>
+  <path d="M386 205H555V185"/>
+  <path d="M310 281V330H220"/>
+</g>
+
+<g fill="#63e6ff" font-family="monospace" font-size="9">
+  <text x="395" y="82">INTEGRITY NODE</text>
+  <text x="475" y="176">INFLUENCE GATE</text>
+  <text x="130" y="347">CONFIDENCE ARRAY</text>
+</g>
+
+</svg>
+
+<div class="caption">
+  <span>FIG. 01 — RELATIONSHIP FIREWALL</span>
+  <span>MAGNIFICATION: CLASSIFIED</span>
+</div>
+
+</div>
+</div>
+
+<section id="architecture">
+
+<div class="section-head">
+  <h2>Proprietary Architecture</h2>
+  <p>FIVE LAYERS. ZERO EXPLANATIONS.</p>
+</div>
+
+<div class="grid">
+
+<div class="card">
+  <div class="num">01 / EADM</div>
+  <h3>Executive Affection Detection Matrix</h3>
+  <p>Identifies anomalous relationship patterns before they become shareholder events.</p>
+</div>
+
+<div class="card">
+  <div class="num">02 / FIR</div>
+  <h3>Foreign Influence Receptor</h3>
+  <p>Flags suspicious geopolitical proximity using advanced proximity-adjacent analytics.</p>
+</div>
+
+<div class="card">
+  <div class="num">03 / EDL</div>
+  <h3>Emotional Data Leakage Membrane</h3>
+  <p>Contains sensitive disclosures at the precise moment discretion becomes optional.</p>
+</div>
+
+<div class="card">
+  <div class="num">04 / QLE</div>
+  <h3>Quantum Loyalty Enforcement</h3>
+  <p>Maintains executive alignment across all known and theoretical timelines.</p>
+</div>
+
+<div class="card">
+  <div class="num">05 / SCS</div>
+  <h3>Shareholder Confidence Stabilizer</h3>
+  <p>Converts alarming headlines into forward-looking confidence metrics.</p>
+</div>
+
+<div class="card">
+  <div class="num">06 / CEO-DR</div>
+  <h3>Executive Continuity Protocol</h3>
+  <p>Initiates a seamless leadership transition. Replacement executive sold separately.</p>
+</div>
+
+</div>
+</section>
+
+<section id="research">
+
+<div class="section-head">
+  <h2>Validated Performance Metrics</h2>
+  <p>INTERNAL SIMULATION / NOT PEER REVIEWED</p>
+</div>
+
+<div class="metrics">
+
+<div class="metric">
+  <strong>99.97%</strong>
+  <small>Relationship Containment</small>
+</div>
+
+<div class="metric">
+  <strong>0.03ms</strong>
+  <small>Executive Hesitation Latency</small>
+</div>
+
+<div class="metric">
+  <strong>∞</strong>
+  <small>Proprietary Confidence Horizon</small>
+</div>
+
+</div>
+
+<p style="color:var(--muted);font-size:12px">
+  Performance figures are fictional illustrative claims generated
+  for the DATASIMOV satire universe.
+</p>
+
+</section>
+
+<section id="demo">
+
+<div class="section-head">
+  <h2>Live System Diagnostic</h2>
+  <p>INTERACTIVE SIMULATION</p>
+</div>
+
+<p style="color:var(--muted)">
+  Run a simulated integrity scan. No real monitoring,
+  detection, or security functions are performed.
+</p>
+
+<button class="btn" onclick="runFirewall()">
+  Run Diagnostic
+</button>
+
+<div class="console" id="console" aria-live="polite">
+TRUST™ SYSTEM STANDBY
+Awaiting executive integrity diagnostic...
+</div>
+
+</section>
+
+<div class="notice">
+  <strong>IMPORTANT DISCLOSURE:</strong>
+  DATASIMOV TRUST™ and all technologies, specifications,
+  performance metrics, and research shown on this page are
+  fictional satire. This page does not describe a real
+  cybersecurity product, validated research, or an investment offering.
+</div>
+
+</main>
+
+<footer>
+  <span>© 2026 DATASIMOV INDUSTRIES — ALL RIGHTS RESERVED, PROBABLY.</span>
+  <span>TRUST™ / BUILD 0.0.1-ALPHA-ISH</span>
+</footer>
+
+<script>
+function runFirewall() {
+
+  const output = document.getElementById("console");
+
+  const lines = [
+    "TRUST™ DIAGNOSTIC INITIALIZED...",
+    "Scanning executive sentiment vectors ........ COMPLETE",
+    "Checking relationship perimeter ............. AMBIGUOUS",
+    "Foreign influence receptor .................. SEEKING CLARIFICATION",
+    "Shareholder confidence index ................ REASSURINGLY VAGUE",
+    "Executive continuity protocol ............... CEO NOT FOUND",
+    "",
+    "FINAL STATUS: OPTIMISTIC",
+    "RECOMMENDATION: SCHEDULE ANOTHER BOARD MEETING",
+    "",
+    "NOTE: This is a fictional simulation. No actual scan occurred."
+  ];
+
+  let i = 0;
+  output.textContent = "";
+
+  const timer = setInterval(() => {
+
+    output.textContent += lines[i] + "\n";
+    i++;
+
+    if (i >= lines.length) {
+      clearInterval(timer);
+    }
+
+  }, 260);
+
+}
+</script>
+
+</body>
+</html>
